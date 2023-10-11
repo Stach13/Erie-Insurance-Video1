@@ -5,21 +5,46 @@ body {
 
 .background {
     background-color: white;
-    padding: 60px;
+    padding: 30px;
+}
+
+li {
+    margin-top: 50px;
+    margin-left: 150px;
+    float: left;
+}
+
+.header {
+    display: flex;
+    background-color: #005487;
+    padding: 100px 33px 0px;
+    max-width: 100%;
+    margin: 0;
 }
 
 h1 {
-    background-color: #005487;
     color: white;
     font: 50px Helvetica;
-    padding: 100px 33px 40px;
-    max-width: 100%;
-    margin: 0;
 }
 
 h2 {
     font: 35px Helvetica;
 }
+
+.desc {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+div.transcript.on {
+    display: none;
+    margin-right: 200px;
+}
+
+span.bold.on {font-weight: bold;}
 
 p {
     width: 500px;
