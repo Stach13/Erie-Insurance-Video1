@@ -40,8 +40,7 @@ h2 {
 }
 
 div.transcript.on {
-    display: none;
-    margin-right: 200px;
+    /*  margin-right: 200px;*/
 }
 
 span.bold.on {font-weight: bold;}
