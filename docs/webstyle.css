@@ -12,6 +12,7 @@ li {
     margin-top: 50px;
     margin-left: 150px;
     float: left;
+    color: white;
 }
 
 .header {
@@ -41,6 +42,7 @@ h2 {
 
 div.transcript.on {
     /*  margin-right: 200px;*/
+    display: block;
 }
 
 span.bold.on {font-weight: bold;}
@@ -72,4 +74,5 @@ iframe {
     float: left;
     border: solid #005487;
     margin-bottom: 75px;
+    display: none;
 }
